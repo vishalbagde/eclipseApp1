@@ -43,8 +43,11 @@ public class LamdaExpExample1 {
 		
 		LamdaExpExample1.MasterClassLambda l  =new LamdaExpExample1().new MasterClassLambda();
 		l.toString();
+
 		System.out.println("hellow world");
 		l.toString();
+		System.out.println("vishal");
+
 	
 		
 	}
