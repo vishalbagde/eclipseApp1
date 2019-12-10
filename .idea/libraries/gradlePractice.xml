@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="gradlePractice">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/build/distributions/gradlePractice.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

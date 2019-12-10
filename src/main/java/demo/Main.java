@@ -7,10 +7,10 @@ interface Test{
 class Hello{
 	private String str1 = "vishal";
     private String str2 = "vishal2";
-    
     private String str3 = "vishal3";
-    
-    Test t1 = (String name) -> System.out.println(name); 
+
+
+    Test t1 = (String name) -> System.out.println(name);
     
     Test t =new Test() {
     	@Override
