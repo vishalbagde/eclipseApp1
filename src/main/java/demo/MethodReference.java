@@ -27,7 +27,7 @@ public class MethodReference {
 				
 		MyPrinter printer = new MyPrinter();
 		
-		//StringParser st =new StringParser();
+		StringParser st =new StringParser();
 		
 		printer.print("hello world", new StringParser()::convert);
 			
