@@ -16,7 +16,7 @@ interface Demo1 extends Demo {
 
 	default void show() {
 		System.out.println("in show");
-	}
+	}	
 
 	@Override
 	default void print() {
