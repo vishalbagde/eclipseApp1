@@ -7,7 +7,7 @@ interface Parser{
 }
 
 class StringParser{
-	public String convert(String str)
+	public  String convert(String str)
 	{
 		return str.toUpperCase();
 	}
@@ -27,9 +27,9 @@ public class MethodReference {
 				
 		MyPrinter printer = new MyPrinter();
 		
-		StringParser st =new StringParser();
+	
 		
-		printer.print("hello world", new StringParser()::convert);
+		printer.print("hello world", new  StringParser()::convert);
 			
 	}
 }

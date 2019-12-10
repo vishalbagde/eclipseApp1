@@ -36,20 +36,14 @@ public class LamdaExpExample1 {
             return "I am a Master!";
         }
     }
-
-	
 	
 	public static void main(String[] args) {
 		
 		LamdaExpExample1.MasterClassLambda l  =new LamdaExpExample1().new MasterClassLambda();
 		l.toString();
-
 		System.out.println("hellow world");
-		l.toString();
+		l.toString();	
 		System.out.println("vishal");
-
-	
-		
 	}
 
 }
