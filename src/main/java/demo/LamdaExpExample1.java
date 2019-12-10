@@ -42,7 +42,7 @@ public class LamdaExpExample1 {
 	public static void main(String[] args) {
 		
 		LamdaExpExample1.MasterClassLambda l  =new LamdaExpExample1().new MasterClassLambda();
-		
+		l.toString();
 	
 		
 	}
