@@ -1,6 +1,5 @@
 package demo;
 
-
 import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collector;
@@ -19,8 +18,7 @@ public class StreamExample3 {
 		List<String> name = Arrays.asList("vishal","shrikant","sashi","maya");
 		List result = name.stream().filter(s->s.startsWith("v")).collect(Collectors.toList());
 		result.forEach(System.out::println);
-		
-		
+			
 		List<String> address = Arrays.asList("sachin","surat","udhna","bhestan","vapi");
 		List addres = address.stream().sorted().collect(Collectors.toList());
 		addres.forEach(System.out::println);
