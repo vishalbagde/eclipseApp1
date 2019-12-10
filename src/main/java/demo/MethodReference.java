@@ -7,7 +7,7 @@ interface Parser{
 }
 
 class StringParser{
-	public static String convert(String str)
+	public String convert(String str)
 	{
 		return str.toUpperCase();
 	}
@@ -22,13 +22,14 @@ public class MethodReference {
 	public static void main(String[] args) {
 		List<String> a = Arrays.asList("vishal", "akash", "mona", "nutan", "yogi");
 
-		a.forEach((str) -> System.out.println(str));
-		a.forEach(System.out::println);
+		//a.forEach((str) -> System.out.println(str));
+		//a.forEach(System.out::println);
 				
 		MyPrinter printer = new MyPrinter();
 		
-		printer.print("hello world", StringParser::convert);
+		//StringParser st =new StringParser();
+		
+		printer.print("hello world", new StringParser()::convert);
 			
 	}
-
 }
